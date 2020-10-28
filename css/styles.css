@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(235, 233, 233);
+}
+html{
+    font-family: 'Merriweather';
+}
+
+ul {
+    padding-left: 0;
+}
+img {
+    max-width: 100%;
+}
+
+.intro p{
+    text-align: center;
+}
+
+
+/* Main Nav */
+.name{
+    text-align: center;
+    margin-left: 10px;
+}
+.main-nav{
+    text-align: center;
+}
+
+.main-nav li{
+    list-style-type: none;
+    /* display: inline-block; */
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    
+}
+
+.main-nav li a{
+    text-decoration: none;
+    
+}
+
+.main-nav li a:hover{
+    color: black;
+}
+
+
+/* Main Profile */
+.intro{
+    margin-bottom: 80px
+}
+
+.intro img{
+    width:100%; 
+    margin: 0 auto;
+}
+
+
+/* Portfolio */
+.column {
+ width: 100%;
+}
+.port-img{
+  height: 250px;
+    
+}
+.portfolio h2,h4{
+    color:black;
+    text-align: center;
+}
+
+.portfolio{
+    background-color: white;
+    padding: 30px;
+    
+}
+
+
+/* Contact Section */
+
+.contact-us{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contact-para {
+    margin: 60px auto;
+    width: 80%;
+}
+
+.email{
+    margin: 35px 0;
+}
+
+/* Footer Section */
+
+footer{
+    
+}
+
+.top{
+    float: right;
+    margin-top: 10px;
+}
+.footer-nav{
+    float: right;
+    display: none;
+}
+.footer-nav li{
+    display: inline-block;
+    padding: 4px;
+    
+}
+.footer-nav li a{
+    text-decoration: none;
+    
+}
+
+.footer-name{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+@media only screen and (min-width:768px){
+
+/* Main Header */
+  .intro img{
+    width: 50%;
+    margin-left: 28%;
+    /* margin-left: 25px; */
+}
+
+.main-nav li{
+    display: inline-block;
+    
+}
+/* Portfolio */
+  
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.portfolio{
+    background-color: white;
+    padding: 10px;
+    width: 100%; 
+    
+}
+
+.port-img{
+   width: 100%;
+   padding: 10px; 
+   
+}
+
+.portfolio h2,h4{
+    color:black;
+    text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Footer */
+.top{
+    display: none;
+}
+
+.footer-nav{
+    float: right;
+    display: inline-block;
+}
+.footer-nav li{
+    display: inline-block;
+    padding: 4px;
+    
+}
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 1024px) {
+   
+.main-nav{
+float: right;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    padding: 10px;
+}
+.main-nav li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.main-nav li a:hover{
+    color: black;
+}
+
+
+.name{
+    font-size:20px;
+    margin-top: 25px;
+    display: inline-block;
+}
+/* Main Header */
+.intro {
+    width: 90%;
+    margin: auto;
+}
+.intro img{
+    float: right;
+    width: 30%;
+    margin-left: 25px;
+}
+
+.intro p{
+    padding-top: 80px;
+    font-size: 1rem;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Portfolio Section */
+
+.portfolio{
+    background-color: white;
+    /* padding: 10px;  */
+    margin: 50px;
+    
+}
+.portfolio h2,h4{
+    color:black;
+    text-align: center;
+}
+.column {
+  float: left;
+  width: 33.33%;
+
+  /* padding: 5px; */
+}
+
+.portfolio img{
+    /* width:100% */
+}
+
+/* Contact US  */
+
+
+}
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+  .column{
+  width: 33.33%;
+  padding: 5px;
+}
+} */
+
+
+
+
+
+
+
+/* @media screen and (min-width: 800px) { */
+  /* body {
+    background-color: lavender;
+  }
+   .column{
+  width: 49.33%;
+  padding: 5px;
+}
+} */
+
+/* @media only screen and (min-width:768px){
+.column img {
+  float: left;
+  width: 49.33%;
+  padding: 5px;
+}
+}
+
+@media only screen and (min-width:580px){
+    .column img{
+        float: left;
+        width: 100%;
+        padding: 5px;
+    }
+} */
