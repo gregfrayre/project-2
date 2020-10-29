@@ -3,7 +3,7 @@
 }
 
 body{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: rgb(235, 233, 233);
 }
@@ -67,7 +67,7 @@ img {
  width: 100%;
 }
 .port-img{
-  height: 250px;
+  /* height: 250px; */
     
 }
 .portfolio h2,h4{
@@ -107,6 +107,7 @@ footer{
 .top{
     float: right;
     margin-top: 10px;
+    text-decoration: none;
 }
 .footer-nav{
     float: right;
@@ -141,9 +142,12 @@ footer{
 
 /* Main Header */
   .intro img{
-    width: 50%;
-    margin-left: 28%;
-    /* margin-left: 25px; */
+    width: 40%;
+    float: right;
+}
+.intro p{
+    margin-top: 80px;
+    width: 55%;
 }
 
 .main-nav li{
@@ -156,7 +160,11 @@ footer{
   float: left;
   width: 50%;
 }
-
+.column p{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
 /* Clear floats after the columns */
 .clearfix {
   content: "";
@@ -191,8 +199,8 @@ footer{
 /* Footer */
 .top{
     display: none;
+    
 }
-
 .footer-nav{
     float: right;
     display: inline-block;
@@ -202,6 +210,7 @@ footer{
     padding: 4px;
     
 }
+
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
@@ -235,16 +244,18 @@ float: right;
 .intro {
     width: 90%;
     margin: auto;
+    margin-bottom: 50px;
 }
 .intro img{
     float: right;
     width: 30%;
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
 
 .intro p{
-    padding-top: 80px;
+    padding-top: 50px;
     font-size: 1rem;
+    width: 64%;
 }
 
 .clearfix::after {
@@ -257,8 +268,8 @@ float: right;
 
 .portfolio{
     background-color: white;
-    /* padding: 10px;  */
-    margin: 50px;
+    padding: 30px;  
+    /* margin: 50px; */
     
 }
 .portfolio h2,h4{
